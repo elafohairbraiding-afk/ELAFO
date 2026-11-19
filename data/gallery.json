@@ -1,0 +1,496 @@
+[
+  {
+    "id": "gal-01",
+    "title": "Boho Goddess Knotless Braids",
+    "category": "boho",
+    "tags": [
+      "bohemian",
+      "curls",
+      "knotless",
+      "popular"
+    ],
+    "width": 1200,
+    "height": 1600,
+    "aspectRatio": 0.75,
+    "src": "./assets/gallery/gallery-01.webp",
+    "fallback": "./assets/gallery/gallery-01.jpg",
+    "thumb": "./assets/gallery/gallery-01-480.webp",
+    "alt": "Boho Goddess Knotless Braids protective African hair braiding at Elafo Hair Lanham MD"
+  },
+  {
+    "id": "gal-02",
+    "title": "Voluminous Island Twists",
+    "category": "twists",
+    "tags": [
+      "twists",
+      "passion twists",
+      "protective"
+    ],
+    "width": 1200,
+    "height": 1600,
+    "aspectRatio": 0.75,
+    "src": "./assets/gallery/gallery-02.webp",
+    "fallback": "./assets/gallery/gallery-02.jpg",
+    "thumb": "./assets/gallery/gallery-02-480.webp",
+    "alt": "Voluminous Island Twists protective African hair braiding at Elafo Hair Lanham MD"
+  },
+  {
+    "id": "gal-03",
+    "title": "Midback Bohemian Curls",
+    "category": "boho",
+    "tags": [
+      "boho",
+      "midback",
+      "curls"
+    ],
+    "width": 1200,
+    "height": 1600,
+    "aspectRatio": 0.75,
+    "src": "./assets/gallery/gallery-03.webp",
+    "fallback": "./assets/gallery/gallery-03.jpg",
+    "thumb": "./assets/gallery/gallery-03-480.webp",
+    "alt": "Midback Bohemian Curls protective African hair braiding at Elafo Hair Lanham MD"
+  },
+  {
+    "id": "gal-04",
+    "title": "Textured Island Curls",
+    "category": "twists",
+    "tags": [
+      "island twists",
+      "texture",
+      "full"
+    ],
+    "width": 1200,
+    "height": 1600,
+    "aspectRatio": 0.75,
+    "src": "./assets/gallery/gallery-04.webp",
+    "fallback": "./assets/gallery/gallery-04.jpg",
+    "thumb": "./assets/gallery/gallery-04-480.webp",
+    "alt": "Textured Island Curls protective African hair braiding at Elafo Hair Lanham MD"
+  },
+  {
+    "id": "gal-05",
+    "title": "Scalp Stitch Cornrows",
+    "category": "cornrows",
+    "tags": [
+      "cornrows",
+      "stitch",
+      "scalp"
+    ],
+    "width": 1200,
+    "height": 1600,
+    "aspectRatio": 0.75,
+    "src": "./assets/gallery/gallery-05.webp",
+    "fallback": "./assets/gallery/gallery-05.jpg",
+    "thumb": "./assets/gallery/gallery-05-480.webp",
+    "alt": "Scalp Stitch Cornrows protective African hair braiding at Elafo Hair Lanham MD"
+  },
+  {
+    "id": "gal-06",
+    "title": "Large Square Part Knotless",
+    "category": "knotless",
+    "tags": [
+      "large",
+      "square part",
+      "knotless"
+    ],
+    "width": 1200,
+    "height": 1600,
+    "aspectRatio": 0.75,
+    "src": "./assets/gallery/gallery-06.webp",
+    "fallback": "./assets/gallery/gallery-06.jpg",
+    "thumb": "./assets/gallery/gallery-06-480.webp",
+    "alt": "Large Square Part Knotless protective African hair braiding at Elafo Hair Lanham MD"
+  },
+  {
+    "id": "gal-07",
+    "title": "Large Waist Length Knotless",
+    "category": "knotless",
+    "tags": [
+      "large",
+      "waist length",
+      "sleek"
+    ],
+    "width": 1200,
+    "height": 1600,
+    "aspectRatio": 0.75,
+    "src": "./assets/gallery/gallery-07.webp",
+    "fallback": "./assets/gallery/gallery-07.jpg",
+    "thumb": "./assets/gallery/gallery-07-480.webp",
+    "alt": "Large Waist Length Knotless protective African hair braiding at Elafo Hair Lanham MD"
+  },
+  {
+    "id": "gal-08",
+    "title": "Flawless Parting Knotless Braids",
+    "category": "knotless",
+    "tags": [
+      "knotless",
+      "natural",
+      "clean"
+    ],
+    "width": 1200,
+    "height": 1600,
+    "aspectRatio": 0.75,
+    "src": "./assets/gallery/gallery-08.webp",
+    "fallback": "./assets/gallery/gallery-08.jpg",
+    "thumb": "./assets/gallery/gallery-08-480.webp",
+    "alt": "Flawless Parting Knotless Braids protective African hair braiding at Elafo Hair Lanham MD"
+  },
+  {
+    "id": "gal-09",
+    "title": "Straight-Back Precision Stitch",
+    "category": "cornrows",
+    "tags": [
+      "straight back",
+      "stitch",
+      "precision"
+    ],
+    "width": 1200,
+    "height": 1600,
+    "aspectRatio": 0.75,
+    "src": "./assets/gallery/gallery-09.webp",
+    "fallback": "./assets/gallery/gallery-09.jpg",
+    "thumb": "./assets/gallery/gallery-09-480.webp",
+    "alt": "Straight-Back Precision Stitch protective African hair braiding at Elafo Hair Lanham MD"
+  },
+  {
+    "id": "gal-10",
+    "title": "Feed-in Cornrow Ponytail",
+    "category": "cornrows",
+    "tags": [
+      "feed-in",
+      "ponytail",
+      "sleek"
+    ],
+    "width": 1200,
+    "height": 1600,
+    "aspectRatio": 0.75,
+    "src": "./assets/gallery/gallery-10.webp",
+    "fallback": "./assets/gallery/gallery-10.jpg",
+    "thumb": "./assets/gallery/gallery-10-480.webp",
+    "alt": "Feed-in Cornrow Ponytail protective African hair braiding at Elafo Hair Lanham MD"
+  },
+  {
+    "id": "gal-11",
+    "title": "Designer Multi-Stitch Cornrows",
+    "category": "cornrows",
+    "tags": [
+      "designer",
+      "stitch",
+      "geometric"
+    ],
+    "width": 1200,
+    "height": 1600,
+    "aspectRatio": 0.75,
+    "src": "./assets/gallery/gallery-11.webp",
+    "fallback": "./assets/gallery/gallery-11.jpg",
+    "thumb": "./assets/gallery/gallery-11-480.webp",
+    "alt": "Designer Multi-Stitch Cornrows protective African hair braiding at Elafo Hair Lanham MD"
+  },
+  {
+    "id": "gal-12",
+    "title": "Fulani Tribal Stitch Lines",
+    "category": "cornrows",
+    "tags": [
+      "fulani",
+      "tribal",
+      "beads"
+    ],
+    "width": 1200,
+    "height": 1600,
+    "aspectRatio": 0.75,
+    "src": "./assets/gallery/gallery-12.webp",
+    "fallback": "./assets/gallery/gallery-12.jpg",
+    "thumb": "./assets/gallery/gallery-12-480.webp",
+    "alt": "Fulani Tribal Stitch Lines protective African hair braiding at Elafo Hair Lanham MD"
+  },
+  {
+    "id": "gal-13",
+    "title": "Smedium Waist Knotless",
+    "category": "knotless",
+    "tags": [
+      "smedium",
+      "waist",
+      "signature"
+    ],
+    "width": 1536,
+    "height": 2048,
+    "aspectRatio": 0.75,
+    "src": "./assets/gallery/gallery-13.webp",
+    "fallback": "./assets/gallery/gallery-13.jpg",
+    "thumb": "./assets/gallery/gallery-13-480.webp",
+    "alt": "Smedium Waist Knotless protective African hair braiding at Elafo Hair Lanham MD"
+  },
+  {
+    "id": "gal-14",
+    "title": "Smedium Butt Length Knotless",
+    "category": "knotless",
+    "tags": [
+      "smedium",
+      "butt length",
+      "luxury"
+    ],
+    "width": 1536,
+    "height": 2048,
+    "aspectRatio": 0.75,
+    "src": "./assets/gallery/gallery-14.webp",
+    "fallback": "./assets/gallery/gallery-14.jpg",
+    "thumb": "./assets/gallery/gallery-14-480.webp",
+    "alt": "Smedium Butt Length Knotless protective African hair braiding at Elafo Hair Lanham MD"
+  },
+  {
+    "id": "gal-15",
+    "title": "Natural Black Smedium Knotless",
+    "category": "knotless",
+    "tags": [
+      "smedium",
+      "natural",
+      "everyday"
+    ],
+    "width": 1536,
+    "height": 2048,
+    "aspectRatio": 0.75,
+    "src": "./assets/gallery/gallery-15.webp",
+    "fallback": "./assets/gallery/gallery-15.jpg",
+    "thumb": "./assets/gallery/gallery-15-480.webp",
+    "alt": "Natural Black Smedium Knotless protective African hair braiding at Elafo Hair Lanham MD"
+  },
+  {
+    "id": "gal-16",
+    "title": "Smedium Clean Square Parting",
+    "category": "knotless",
+    "tags": [
+      "smedium",
+      "square part",
+      "scalp"
+    ],
+    "width": 1536,
+    "height": 2048,
+    "aspectRatio": 0.75,
+    "src": "./assets/gallery/gallery-16.webp",
+    "fallback": "./assets/gallery/gallery-16.jpg",
+    "thumb": "./assets/gallery/gallery-16-480.webp",
+    "alt": "Smedium Clean Square Parting protective African hair braiding at Elafo Hair Lanham MD"
+  },
+  {
+    "id": "gal-17",
+    "title": "Signature Knotless Finish",
+    "category": "knotless",
+    "tags": [
+      "knotless",
+      "long",
+      "signature"
+    ],
+    "width": 1200,
+    "height": 1600,
+    "aspectRatio": 0.75,
+    "src": "./assets/gallery/gallery-17.webp",
+    "fallback": "./assets/gallery/gallery-17.jpg",
+    "thumb": "./assets/gallery/gallery-17-480.webp",
+    "alt": "Signature Knotless Finish protective African hair braiding at Elafo Hair Lanham MD"
+  },
+  {
+    "id": "gal-18",
+    "title": "Gloss Finish Protective Braids",
+    "category": "knotless",
+    "tags": [
+      "gloss",
+      "protective",
+      "smooth"
+    ],
+    "width": 960,
+    "height": 1192,
+    "aspectRatio": 0.81,
+    "src": "./assets/gallery/gallery-18.webp",
+    "fallback": "./assets/gallery/gallery-18.jpg",
+    "thumb": "./assets/gallery/gallery-18-480.webp",
+    "alt": "Gloss Finish Protective Braids protective African hair braiding at Elafo Hair Lanham MD"
+  },
+  {
+    "id": "gal-19",
+    "title": "Midback Classic Knotless",
+    "category": "knotless",
+    "tags": [
+      "classic",
+      "midback",
+      "lightweight"
+    ],
+    "width": 960,
+    "height": 1280,
+    "aspectRatio": 0.75,
+    "src": "./assets/gallery/gallery-19.webp",
+    "fallback": "./assets/gallery/gallery-19.jpg",
+    "thumb": "./assets/gallery/gallery-19-480.webp",
+    "alt": "Midback Classic Knotless protective African hair braiding at Elafo Hair Lanham MD"
+  },
+  {
+    "id": "gal-20",
+    "title": "Kids Gentle Shoulder Box Braids",
+    "category": "kids",
+    "tags": [
+      "kids",
+      "gentle",
+      "beads"
+    ],
+    "width": 1200,
+    "height": 1200,
+    "aspectRatio": 1.0,
+    "src": "./assets/gallery/gallery-20.webp",
+    "fallback": "./assets/gallery/gallery-20.jpg",
+    "thumb": "./assets/gallery/gallery-20-480.webp",
+    "alt": "Kids Gentle Shoulder Box Braids protective African hair braiding at Elafo Hair Lanham MD"
+  },
+  {
+    "id": "gal-21",
+    "title": "Men's Clean Geometric Cornrows",
+    "category": "men",
+    "tags": [
+      "men",
+      "cornrows",
+      "fade"
+    ],
+    "width": 683,
+    "height": 1024,
+    "aspectRatio": 0.67,
+    "src": "./assets/gallery/gallery-21.webp",
+    "fallback": "./assets/gallery/gallery-21.jpg",
+    "thumb": "./assets/gallery/gallery-21-480.webp",
+    "alt": "Men's Clean Geometric Cornrows protective African hair braiding at Elafo Hair Lanham MD"
+  },
+  {
+    "id": "gal-22",
+    "title": "Kids Protective Boho Plaits",
+    "category": "kids",
+    "tags": [
+      "kids",
+      "boho",
+      "soft"
+    ],
+    "width": 1536,
+    "height": 2048,
+    "aspectRatio": 0.75,
+    "src": "./assets/gallery/gallery-22.webp",
+    "fallback": "./assets/gallery/gallery-22.jpg",
+    "thumb": "./assets/gallery/gallery-22-480.webp",
+    "alt": "Kids Protective Boho Plaits protective African hair braiding at Elafo Hair Lanham MD"
+  },
+  {
+    "id": "gal-23",
+    "title": "Kids Beaded Bohemian Curls",
+    "category": "kids",
+    "tags": [
+      "kids",
+      "curls",
+      "beads"
+    ],
+    "width": 1536,
+    "height": 2048,
+    "aspectRatio": 0.75,
+    "src": "./assets/gallery/gallery-23.webp",
+    "fallback": "./assets/gallery/gallery-23.jpg",
+    "thumb": "./assets/gallery/gallery-23-480.webp",
+    "alt": "Kids Beaded Bohemian Curls protective African hair braiding at Elafo Hair Lanham MD"
+  },
+  {
+    "id": "gal-24",
+    "title": "Warm Honey Bohemian Braids",
+    "category": "boho",
+    "tags": [
+      "honey",
+      "ombre",
+      "boho"
+    ],
+    "width": 1536,
+    "height": 2048,
+    "aspectRatio": 0.75,
+    "src": "./assets/gallery/gallery-24.webp",
+    "fallback": "./assets/gallery/gallery-24.jpg",
+    "thumb": "./assets/gallery/gallery-24-480.webp",
+    "alt": "Warm Honey Bohemian Braids protective African hair braiding at Elafo Hair Lanham MD"
+  },
+  {
+    "id": "gal-25",
+    "title": "Full Volume Goddess Braids",
+    "category": "boho",
+    "tags": [
+      "volume",
+      "goddess",
+      "curls"
+    ],
+    "width": 1536,
+    "height": 2048,
+    "aspectRatio": 0.75,
+    "src": "./assets/gallery/gallery-25.webp",
+    "fallback": "./assets/gallery/gallery-25.jpg",
+    "thumb": "./assets/gallery/gallery-25-480.webp",
+    "alt": "Full Volume Goddess Braids protective African hair braiding at Elafo Hair Lanham MD"
+  },
+  {
+    "id": "gal-26",
+    "title": "Chic Boho Knotless Bob",
+    "category": "boho",
+    "tags": [
+      "bob",
+      "short",
+      "chic"
+    ],
+    "width": 1600,
+    "height": 2133,
+    "aspectRatio": 0.75,
+    "src": "./assets/gallery/gallery-26.webp",
+    "fallback": "./assets/gallery/gallery-26.jpg",
+    "thumb": "./assets/gallery/gallery-26-480.webp",
+    "alt": "Chic Boho Knotless Bob protective African hair braiding at Elafo Hair Lanham MD"
+  },
+  {
+    "id": "gal-27",
+    "title": "Fulani Bohemian Hybrid",
+    "category": "boho",
+    "tags": [
+      "fulani",
+      "hybrid",
+      "boho"
+    ],
+    "width": 1600,
+    "height": 2133,
+    "aspectRatio": 0.75,
+    "src": "./assets/gallery/gallery-27.webp",
+    "fallback": "./assets/gallery/gallery-27.jpg",
+    "thumb": "./assets/gallery/gallery-27-480.webp",
+    "alt": "Fulani Bohemian Hybrid protective African hair braiding at Elafo Hair Lanham MD"
+  },
+  {
+    "id": "gal-28",
+    "title": "Extra Lush Goddess Waves",
+    "category": "boho",
+    "tags": [
+      "goddess",
+      "extra curls",
+      "lush"
+    ],
+    "width": 1536,
+    "height": 2048,
+    "aspectRatio": 0.75,
+    "src": "./assets/gallery/gallery-28.webp",
+    "fallback": "./assets/gallery/gallery-28.jpg",
+    "thumb": "./assets/gallery/gallery-28-480.webp",
+    "alt": "Extra Lush Goddess Waves protective African hair braiding at Elafo Hair Lanham MD"
+  },
+  {
+    "id": "gal-29",
+    "title": "Midback Everyday Boho",
+    "category": "boho",
+    "tags": [
+      "midback",
+      "everyday",
+      "boho"
+    ],
+    "width": 1536,
+    "height": 2048,
+    "aspectRatio": 0.75,
+    "src": "./assets/gallery/gallery-29.webp",
+    "fallback": "./assets/gallery/gallery-29.jpg",
+    "thumb": "./assets/gallery/gallery-29-480.webp",
+    "alt": "Midback Everyday Boho protective African hair braiding at Elafo Hair Lanham MD"
+  }
+]

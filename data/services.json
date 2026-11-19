@@ -1,0 +1,155 @@
+[
+  {
+    "id": "midback-knotless",
+    "category": "knotless",
+    "name": "Midback Knotless Box Braids",
+    "price": 230,
+    "currency": "USD",
+    "duration": "4.5 hrs",
+    "durationMinutes": 270,
+    "description": "Featherlight protective braids with square parting, gentle tension, and edge preservation.",
+    "image": "./assets/gallery/gallery-08.webp",
+    "featured": true,
+    "tags": [
+      "signature",
+      "knotless",
+      "popular"
+    ]
+  },
+  {
+    "id": "boho-goddess",
+    "category": "boho",
+    "name": "Boho Goddess Braids",
+    "price": 260,
+    "currency": "USD",
+    "duration": "5.0 hrs",
+    "durationMinutes": 300,
+    "description": "Seamless knotless plaits intertwined with lush, touchable human/organic curl bundles.",
+    "image": "./assets/gallery/gallery-01.webp",
+    "featured": true,
+    "tags": [
+      "signature",
+      "boho",
+      "curls"
+    ]
+  },
+  {
+    "id": "small-knotless",
+    "category": "knotless",
+    "name": "Small Knotless Box Braids",
+    "price": 280,
+    "currency": "USD",
+    "duration": "6.5 hrs",
+    "durationMinutes": 390,
+    "description": "Micro-precision geometric partings offering maximum density, styling versatility, and 8-10 weeks longevity.",
+    "image": "./assets/gallery/gallery-13.webp",
+    "featured": false,
+    "tags": [
+      "knotless",
+      "small",
+      "longevity"
+    ]
+  },
+  {
+    "id": "medium-knotless",
+    "category": "knotless",
+    "name": "Medium Knotless Braids",
+    "price": 240,
+    "currency": "USD",
+    "duration": "5.0 hrs",
+    "durationMinutes": 300,
+    "description": "Our most popular day-to-day protective crown. Natural density with immediate styling flexibility.",
+    "image": "./assets/gallery/gallery-14.webp",
+    "featured": true,
+    "tags": [
+      "knotless",
+      "medium",
+      "popular"
+    ]
+  },
+  {
+    "id": "large-knotless",
+    "category": "knotless",
+    "name": "Large Knotless Braids",
+    "price": 180,
+    "currency": "USD",
+    "duration": "3.5 hrs",
+    "durationMinutes": 210,
+    "description": "Chunky statement braids with clean parting. Quick install and virtually zero weight.",
+    "image": "./assets/gallery/gallery-06.webp",
+    "featured": false,
+    "tags": [
+      "knotless",
+      "large",
+      "quick"
+    ]
+  },
+  {
+    "id": "boho-bob",
+    "category": "boho",
+    "name": "Boho Knotless Bob",
+    "price": 220,
+    "currency": "USD",
+    "duration": "4.0 hrs",
+    "durationMinutes": 240,
+    "description": "Sculpted shoulder-length bob cut with romantic face-framing curls and curled ends.",
+    "image": "./assets/gallery/gallery-26.webp",
+    "featured": false,
+    "tags": [
+      "boho",
+      "bob",
+      "short"
+    ]
+  },
+  {
+    "id": "stitch-cornrows",
+    "category": "cornrows",
+    "name": "Precision Stitch Cornrows (4-6)",
+    "price": 110,
+    "currency": "USD",
+    "duration": "2.5 hrs",
+    "durationMinutes": 150,
+    "description": "Razor-sharp linear or curved stitch rows braided close to the scalp with high-shine seal.",
+    "image": "./assets/gallery/gallery-09.webp",
+    "featured": true,
+    "tags": [
+      "cornrows",
+      "stitch",
+      "sleek"
+    ]
+  },
+  {
+    "id": "island-twists",
+    "category": "twists",
+    "name": "Island & Passion Twists",
+    "price": 200,
+    "currency": "USD",
+    "duration": "4.0 hrs",
+    "durationMinutes": 240,
+    "description": "Airy, bouncy two-strand twists using water wave extensions for a natural bohemian texture.",
+    "image": "./assets/gallery/gallery-02.webp",
+    "featured": false,
+    "tags": [
+      "twists",
+      "passion",
+      "bouncy"
+    ]
+  },
+  {
+    "id": "custom-freestyle",
+    "category": "cornrows",
+    "name": "Designer Freestyle Cornrows",
+    "price": null,
+    "currency": "USD",
+    "duration": "3 - 5 hrs",
+    "durationMinutes": 240,
+    "description": "Bespoke geometric parting and creative patterns. Send your reference photo for consultation.",
+    "image": "./assets/gallery/gallery-11.webp",
+    "featured": false,
+    "tags": [
+      "custom",
+      "freestyle",
+      "quote"
+    ]
+  }
+]

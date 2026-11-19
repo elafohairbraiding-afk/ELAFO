@@ -1,0 +1,133 @@
+/* ==========================================================================
+   ELAFO HAIR - DESIGN SYSTEM TOKENS
+   Pure CSS3 - Grounded Earthy Luxury Palette matching Logo
+   ========================================================================== */
+
+/* 1. Local Self-Hosted WOFF2 Fonts (Zero runtime external calls) */
+@font-face {
+  font-family: 'Marcellus';
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+  src: url('../assets/fonts/marcellus-400-normal.woff2') format('woff2');
+}
+
+@font-face {
+  font-family: 'Montserrat';
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+  src: url('../assets/fonts/montserrat-400-normal.woff2') format('woff2');
+}
+
+@font-face {
+  font-family: 'Montserrat';
+  font-style: normal;
+  font-weight: 500;
+  font-display: swap;
+  src: url('../assets/fonts/montserrat-500-normal.woff2') format('woff2');
+}
+
+@font-face {
+  font-family: 'Montserrat';
+  font-style: normal;
+  font-weight: 600;
+  font-display: swap;
+  src: url('../assets/fonts/montserrat-600-normal.woff2') format('woff2');
+}
+
+@font-face {
+  font-family: 'Montserrat';
+  font-style: normal;
+  font-weight: 700;
+  font-display: swap;
+  src: url('../assets/fonts/montserrat-700-normal.woff2') format('woff2');
+}
+
+:root {
+  /* Nuancier Officiel ELAFO (Harmonie avec le logo) */
+  --cream: #FBF5EC;             /* Fond noble lumineux */
+  --sand: #F1E4D2;              /* Fond secondaire chaud / cartes */
+  --ink: #141110;               /* Texte principal haute lisibilité */
+  --terracotta: #B5532A;        /* Boutons d'action, accents héro */
+  --terracotta-dark: #8F3F1E;   /* Terracotta contrasté pour petit texte */
+  --ochre: #C99A4B;             /* Dorure chaude artisanale */
+  --brown: #3A2418;             /* Teinte profonde brune / pieds de page */
+  --line: rgba(20, 17, 16, 0.12); /* Séparateurs subtils */
+
+  /* Aliases fonctionnels */
+  --color-bg: var(--cream);
+  --color-surface: #FFFFFF;
+  --color-surface-warm: var(--sand);
+  --color-text: var(--ink);
+  --color-text-muted: #5C524C;
+  --color-text-light: #7E726B;
+  --color-primary: var(--terracotta);
+  --color-primary-hover: var(--terracotta-dark);
+  --color-accent: var(--ochre);
+  --color-dark: var(--brown);
+  --color-dark-ink: var(--ink);
+  --color-border: var(--line);
+  --color-border-strong: rgba(20, 17, 16, 0.22);
+  --color-success: #2C6E49;
+  --color-error: #B72424;
+
+  /* Typographie */
+  --font-heading: 'Marcellus', Georgia, serif;
+  --font-body: 'Montserrat', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
+
+  /* Échelle Typographique Fluide (clamp) */
+  --text-xs: clamp(0.72rem, 0.7rem + 0.15vw, 0.8rem);
+  --text-sm: clamp(0.85rem, 0.82rem + 0.2vw, 0.92rem);
+  --text-base: clamp(0.98rem, 0.94rem + 0.25vw, 1.05rem);
+  --text-md: clamp(1.1rem, 1.04rem + 0.35vw, 1.25rem);
+  --text-lg: clamp(1.3rem, 1.2rem + 0.6vw, 1.6rem);
+  --text-xl: clamp(1.7rem, 1.5rem + 1.2vw, 2.2rem);
+  --text-2xl: clamp(2.2rem, 1.8rem + 2.2vw, 3.4rem);
+  --text-hero: clamp(2.4rem, 2rem + 2.8vw, 4.2rem);
+
+  /* Grille 8px & Espacements */
+  --space-1: 4px;
+  --space-2: 8px;
+  --space-3: 12px;
+  --space-4: 16px;
+  --space-5: 20px;
+  --space-6: 24px;
+  --space-8: 32px;
+  --space-10: 40px;
+  --space-12: 48px;
+  --space-16: 64px;
+  --space-20: 80px;
+  --space-24: 96px;
+
+  /* Dimensions & Conteneur */
+  --container-width: 1200px;
+  --header-height: 76px;
+  --bottom-bar-height: 64px;
+
+  /* Rayons & Formes */
+  --radius-xs: 4px;
+  --radius-sm: 8px;
+  --radius-md: 14px;
+  --radius-lg: 20px;
+  --radius-xl: 32px;
+  --radius-pill: 9999px;
+  --radius-arch: 180px 180px 24px 24px;
+
+  /* Ombres Naturelles & Chaleureuses */
+  --shadow-sm: 0 2px 8px rgba(20, 17, 16, 0.05);
+  --shadow-md: 0 8px 24px rgba(20, 17, 16, 0.08);
+  --shadow-lg: 0 16px 40px rgba(20, 17, 16, 0.12);
+  --shadow-hover: 0 14px 34px rgba(181, 83, 42, 0.18);
+
+  /* Transitions */
+  --transition-fast: 0.18s cubic-bezier(0.2, 0, 0, 1);
+  --transition-normal: 0.3s cubic-bezier(0.25, 1, 0.5, 1);
+  --transition-smooth: 0.5s cubic-bezier(0.16, 1, 0.3, 1);
+
+  /* Motif Chevron Braid (Encodé en SVG Data-URI pour séparateurs et bordures) */
+  --motif-chevron-divider: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='48' height='12' viewBox='0 0 48 12' fill='none'%3E%3Cpath d='M0 6L12 11L24 6L36 11L48 6' stroke='%23C99A4B' stroke-width='1.5' stroke-linecap='round' stroke-linejoin='round' opacity='0.55'/%3E%3Cpath d='M0 1L12 6L24 1L36 6L48 1' stroke='%23B5532A' stroke-width='1.5' stroke-linecap='round' stroke-linejoin='round' opacity='0.7'/%3E%3C/svg%3E");
+  
+  --motif-chevron-border: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='24' height='10' viewBox='0 0 24 10' fill='none'%3E%3Cpath d='M0 5L6 9L12 5L18 9L24 5' stroke='%23C99A4B' stroke-width='1.5'/%3E%3C/svg%3E");
+}
+

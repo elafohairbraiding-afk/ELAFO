@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Offline | Elafo Hair Studio</title>
+  <link rel="icon" href="./favicon.ico">
+  <link rel="manifest" href="./manifest.webmanifest">
+  <meta name="theme-color" content="#FBF5EC">
+  
+  <link rel="stylesheet" href="./css/tokens.css">
+  <link rel="stylesheet" href="./css/base.css">
+  <link rel="stylesheet" href="./css/components.css">
+
+  <style>
+    body {
+      display: flex;
+      flex-direction: column;
+      min-height: 100vh;
+      background: var(--cream);
+      color: var(--ink);
+      align-items: center;
+      justify-content: center;
+      padding: 1.5rem;
+      text-align: center;
+    }
+    .offline-card {
+      max-width: 520px;
+      width: 100%;
+      background: var(--surface);
+      border: 1px solid var(--line);
+      border-radius: var(--radius-lg);
+      padding: var(--space-8);
+      box-shadow: var(--shadow-md);
+    }
+    .offline-logo {
+      width: 64px;
+      height: 64px;
+      border-radius: 50%;
+      border: 2px solid var(--ochre);
+      margin: 0 auto 1.25rem auto;
+      object-fit: cover;
+    }
+    .offline-icon {
+      width: 48px;
+      height: 48px;
+      color: var(--terracotta);
+      margin-bottom: 1rem;
+    }
+    .offline-title {
+      font-size: 1.6rem;
+      margin-bottom: 0.5rem;
+      color: var(--ink);
+    }
+    .offline-text {
+      font-size: 0.95rem;
+      line-height: 1.6;
+      color: var(--ink);
+      margin-bottom: 1.5rem;
+    }
+    .info-box {
+      background: var(--sand);
+      border-radius: var(--radius-sm);
+      padding: 1rem;
+      text-align: left;
+      font-size: 0.88rem;
+      line-height: 1.6;
+      margin-bottom: 1.5rem;
+    }
+    .info-box strong {
+      display: block;
+      color: var(--ink);
+      margin-bottom: 0.25rem;
+    }
+  </style>
+</head>
+<body>
+
+  <main class="offline-card">
+    <img src="./assets/optimized/logo.webp" alt="Elafo Hair" class="offline-logo" width="64" height="64">
+    
+    <svg class="offline-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+      <line x1="1" y1="1" x2="23" y2="23"></line>
+      <path d="M16.72 11.06A10.94 10.94 0 0 1 19 12.55"></path>
+      <path d="M5 12.55a10.94 10.94 0 0 1 5.17-2.39"></path>
+      <path d="M10.71 5.05A16 16 0 0 1 22.58 9"></path>
+      <path d="M1.42 9a15.91 15.91 0 0 1 4.7-2.88"></path>
+      <path d="M8.53 16.11a6 6 0 0 1 6.95 0"></path>
+      <line x1="12" y1="20" x2="12.01" y2="20"></line>
+    </svg>
+
+    <h1 class="offline-title">YOU ARE OFFLINE</h1>
+    <p class="offline-text">
+      It looks like your internet connection was temporarily interrupted. You can still reach us directly or find our studio below.
+    </p>
+
+    <div class="info-box">
+      <strong>STUDIO ADDRESS</strong>
+      7404 Executive Place, Lanham, MD 20706, USA<br>
+      (Convenient to Prince George's County &amp; New Carrollton)
+    </div>
+
+    <div class="info-box">
+      <strong>HOURS OF ARTISTRY</strong>
+      Mon – Thu: 9:00 AM – 7:00 PM<br>
+      Fri: 8:30 AM – 7:30 PM &bull; Sat: 8:00 AM – 8:00 PM<br>
+      Sun: 10:00 AM – 6:00 PM
+    </div>
+
+    <div style="display: flex; gap: 10px; margin-bottom: 1rem;">
+      <a href="tel:+12029240837" class="btn btn-primary" style="flex: 1; padding: 10px;">
+        Call Studio
+      </a>
+      <a href="sms:+12029240837" class="btn btn-sand" style="flex: 1; padding: 10px;">
+        Text Us
+      </a>
+    </div>
+
+    <button type="button" class="btn btn-secondary btn-block" onclick="window.location.reload();">
+      &orarr; Try Reconnecting
+    </button>
+  </main>
+
+</body>
+</html>

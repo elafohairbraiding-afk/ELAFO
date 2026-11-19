@@ -1,0 +1,85 @@
+# Netlify Configuration for ELAFO HAIR BRAIDING
+# Single-page luxury atelier web application with PWA & offline support
+
+[build]
+  publish = "."
+
+[[redirects]]
+  from = "/about.html"
+  to = "/index.html#main-content"
+  status = 301
+
+[[redirects]]
+  from = "/blog.html"
+  to = "/index.html#main-content"
+  status = 301
+
+[[redirects]]
+  from = "/booking.html"
+  to = "/index.html#wizard-dialog"
+  status = 301
+
+[[redirects]]
+  from = "/gallery.html"
+  to = "/index.html#gallery-section"
+  status = 301
+
+[[redirects]]
+  from = "/price-list.html"
+  to = "/index.html#pricing-menu"
+  status = 301
+
+[[redirects]]
+  from = "/services.html"
+  to = "/index.html#pricing-menu"
+  status = 301
+
+[[redirects]]
+  from = "/privacy.html"
+  to = "/privacy/"
+  status = 301
+
+[[redirects]]
+  from = "/terms.html"
+  to = "/terms/"
+  status = 301
+
+[[headers]]
+  for = "/*"
+  [headers.values]
+    X-Content-Type-Options = "nosniff"
+    X-Frame-Options = "DENY"
+    Referrer-Policy = "strict-origin-when-cross-origin"
+    Permissions-Policy = "camera=(self), microphone=(), geolocation=()"
+    Strict-Transport-Security = "max-age=31536000; includeSubDomains; preload"
+    Content-Security-Policy = "default-src 'self'; script-src 'self' 'unsafe-inline'; style-src 'self' 'unsafe-inline'; img-src 'self' data: blob:; media-src 'self' blob:; font-src 'self'; connect-src 'self'; object-src 'none'; base-uri 'self'; form-action 'self' mailto: tel: sms:; frame-ancestors 'none'; upgrade-insecure-requests;"
+
+[[headers]]
+  for = "/*.html"
+  [headers.values]
+    Cache-Control = "public, max-age=0, must-revalidate"
+
+[[headers]]
+  for = "/sw.js"
+  [headers.values]
+    Cache-Control = "public, max-age=0, must-revalidate"
+
+[[headers]]
+  for = "/assets/*"
+  [headers.values]
+    Cache-Control = "public, max-age=31536000, immutable"
+
+[[headers]]
+  for = "/css/*"
+  [headers.values]
+    Cache-Control = "public, max-age=31536000, immutable"
+
+[[headers]]
+  for = "/js/*"
+  [headers.values]
+    Cache-Control = "public, max-age=31536000, immutable"
+
+[[headers]]
+  for = "/fonts/*"
+  [headers.values]
+    Cache-Control = "public, max-age=31536000, immutable"

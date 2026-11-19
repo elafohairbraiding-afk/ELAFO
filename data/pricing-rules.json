@@ -1,0 +1,54 @@
+{
+  "currency": "USD",
+  "depositAmount": 50,
+  "depositNote": "Non-refundable deposit credited toward your final total.",
+  "lengthUpgrades": [
+    {
+      "id": "midback",
+      "name": "Mid-Back (26\")",
+      "price": 0,
+      "default": true
+    },
+    {
+      "id": "waist",
+      "name": "Waist Length (30\")",
+      "price": 30
+    },
+    {
+      "id": "butt",
+      "name": "Butt Length (36\")",
+      "price": 50
+    },
+    {
+      "id": "thigh",
+      "name": "Thigh Length (42\")",
+      "price": 80
+    }
+  ],
+  "addons": [
+    {
+      "id": "wash",
+      "name": "Deep Conditioning Wash & Blow-Dry",
+      "price": 25,
+      "durationMinutes": 30
+    },
+    {
+      "id": "hair-included",
+      "name": "Braiding Hair Included (100% Pre-stretched)",
+      "price": 30,
+      "durationMinutes": 0
+    },
+    {
+      "id": "takedown",
+      "name": "Prior Style Takedown & Detangle",
+      "price": 40,
+      "durationMinutes": 45
+    },
+    {
+      "id": "colors",
+      "name": "Specialty Ombr\u00e9 / Custom Color Blend",
+      "price": 30,
+      "durationMinutes": 15
+    }
+  ]
+}

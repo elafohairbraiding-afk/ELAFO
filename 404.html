@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>404 - Crown Not Found | Elafo Hair Braiding Studio</title>
+  <link rel="icon" href="./favicon.ico">
+  <link rel="manifest" href="./manifest.webmanifest">
+  <meta name="theme-color" content="#FBF5EC">
+  
+  <link rel="stylesheet" href="./css/tokens.css">
+  <link rel="stylesheet" href="./css/base.css">
+  <link rel="stylesheet" href="./css/components.css">
+
+  <style>
+    body {
+      display: flex;
+      flex-direction: column;
+      min-height: 100vh;
+      background: var(--cream);
+      color: var(--ink);
+      align-items: center;
+      justify-content: center;
+      padding: 1.5rem;
+      text-align: center;
+    }
+    .notfound-card {
+      max-width: 540px;
+      width: 100%;
+      background: var(--surface);
+      border: 1.5px solid var(--line);
+      border-radius: var(--radius-lg);
+      padding: 2.25rem 1.75rem;
+      box-shadow: var(--shadow-md);
+    }
+    .notfound-logo {
+      width: 68px;
+      height: 68px;
+      border-radius: 50%;
+      border: 2px solid var(--ochre);
+      margin: 0 auto 1.25rem auto;
+      object-fit: cover;
+      display: block;
+    }
+    .notfound-badge {
+      display: inline-block;
+      font-size: 0.75rem;
+      font-weight: 700;
+      letter-spacing: 0.12em;
+      text-transform: uppercase;
+      color: var(--terracotta);
+      background: rgba(181, 83, 42, 0.1);
+      padding: 3px 12px;
+      border-radius: 999px;
+      margin-bottom: 0.75rem;
+    }
+    .notfound-title {
+      font-family: var(--font-heading);
+      font-size: 1.85rem;
+      color: var(--ink);
+      margin-bottom: 0.5rem;
+      letter-spacing: 0.08em;
+    }
+    .notfound-text {
+      font-size: 0.95rem;
+      line-height: 1.65;
+      color: var(--color-text-muted);
+      margin-bottom: 1.75rem;
+    }
+    .notfound-actions {
+      display: flex;
+      flex-direction: column;
+      gap: 10px;
+      margin-bottom: 1.5rem;
+    }
+    @media (min-width: 480px) {
+      .notfound-actions {
+        flex-direction: row;
+      }
+      .notfound-actions .btn {
+        flex: 1;
+      }
+    }
+    .notfound-footer {
+      font-size: 0.8rem;
+      color: var(--color-text-muted);
+      border-top: 1px solid var(--line);
+      padding-top: 1rem;
+      margin-top: 0.5rem;
+    }
+  </style>
+</head>
+<body>
+
+  <main class="notfound-card">
+    <img src="./assets/optimized/logo.webp" alt="ELAFO HAIR BRAIDING Logo" class="notfound-logo" width="68" height="68">
+    
+    <span class="notfound-badge">404 Error</span>
+    <h1 class="notfound-title">CROWN NOT FOUND</h1>
+    <p class="notfound-text">
+      The page or hairstyle you are looking for has been moved or does not exist. Return to our Lanham atelier home to explore our protective braiding repertoire or book your crown.
+    </p>
+
+    <div class="notfound-actions">
+      <a href="./index.html" class="btn btn-primary">
+        &larr; Return to Atelier Home
+      </a>
+      <a href="tel:+12029240837" class="btn btn-sand">
+        Call (202) 924-0837
+      </a>
+    </div>
+
+    <div class="notfound-footer">
+      <strong>ELAFO HAIR BRAIDING</strong> &bull; 7404 Executive Place, Lanham, MD 20706
+    </div>
+  </main>
+
+</body>
+</html>

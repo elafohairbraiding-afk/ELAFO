@@ -1,0 +1,26 @@
+[
+  {
+    "id": "overlay-knotless",
+    "styleName": "Midback Knotless Box Braids",
+    "src": "./assets/overlays/knotless-overlay.png",
+    "preview": "./assets/gallery/gallery-08.webp",
+    "type": "overlay",
+    "defaultScale": 1.0
+  },
+  {
+    "id": "overlay-boho",
+    "styleName": "Boho Goddess Braids",
+    "src": "./assets/overlays/boho-overlay.png",
+    "preview": "./assets/gallery/gallery-01.webp",
+    "type": "overlay",
+    "defaultScale": 1.0
+  },
+  {
+    "id": "overlay-bob",
+    "styleName": "Boho Knotless Bob",
+    "src": "./assets/overlays/bob-overlay.png",
+    "preview": "./assets/gallery/gallery-26.webp",
+    "type": "overlay",
+    "defaultScale": 1.0
+  }
+]

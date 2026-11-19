@@ -1,0 +1,11 @@
+# Netlify Redirects for ELAFO HAIR BRAIDING
+# Single source of truth for legacy URLs and route forwarding
+
+/about.html         /index.html#main-content     301
+/blog.html          /index.html#main-content     301
+/booking.html       /index.html#wizard-dialog    301
+/gallery.html       /index.html#gallery-section  301
+/price-list.html    /index.html#pricing-menu     301
+/services.html      /index.html#pricing-menu     301
+/privacy.html       /privacy/                    301
+/terms.html         /terms/                      301
